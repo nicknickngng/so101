@@ -1,0 +1,3 @@
+# BSAP = bus servo adapter port
+BSAP_leader = 	COM4
+BSAP_follower = COM3

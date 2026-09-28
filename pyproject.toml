@@ -3,7 +3,8 @@ name = "so101"
 version = "0.1.0"
 requires-python = "==3.12.*"
 dependencies = [
-    "lerobot[core_scripts,feetech]",
+    "lerobot[core-scripts,feetech]",
+    "matplotlib>=3.11.2",
     "torch",
     "torchvision",
 ]
