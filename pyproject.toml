@@ -1,0 +1,22 @@
+[project]
+name = "so101"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "lerobot[core_scripts,feetech]",
+    "torch",
+    "torchvision",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+lerobot = { git = "https://github.com/huggingface/lerobot", rev = "e595b7902714ba51f91e47523f66f89c5181b649" }
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
