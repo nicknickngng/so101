@@ -1,3 +1,19 @@
 # BSAP = bus servo adapter port
 BSAP_leader = 	COM4
 BSAP_follower = COM3
+
+Leader-Arm Axis		Motor	Gear Ratio
+Base / Shoulder Pan	1	1 / 191
+Shoulder Lift		2	1 / 345
+Elbow Flex		3	1 / 191
+Wrist Flex		4	1 / 147
+Wrist Roll		5	1 / 147
+Gripper			6	1 / 147
+
+Follower
+Base / Shoulder Pan	1	
+Shoulder Lift		2	
+Elbow Flex		3	
+Wrist Flex		4	
+Wrist Roll		5	
+Gripper			6	
